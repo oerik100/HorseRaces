@@ -65,8 +65,8 @@ function getFetch(){
 
         document.querySelector('#aceOfSpades').src = data.cards[aceOfSpadeCode].image
         document.querySelector('#aceOfClubs').src = data.cards[aceOfClubCode].image
-        document.querySelector('#aceOfSpades').src = data.cards[aceOfHeartCode].image
-        document.querySelector('#aceOfSpades').src = data.cards[aceOfDiamondCode].image
+        document.querySelector('#aceOfHearts').src = data.cards[aceOfHeartCode].image
+        document.querySelector('#aceOfDiamonds').src = data.cards[aceOfDiamondCode].image
 
 
 
