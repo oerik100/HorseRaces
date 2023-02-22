@@ -19,3 +19,12 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+#faceDownImages{
+  display: flex;
+  justify-content: space-around;
+}
+
+.faceDown{
+  transform: rotate(90deg);
+  width: 10%;
+}
